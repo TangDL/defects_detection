@@ -1,0 +1,16 @@
+{
+  "num_epochs"   : 20,
+  "batch_size"   : 10,
+  "learning_rate": 5e-4,
+  "resume"       : false,
+  "chkpt"        : null,
+  "start_epoch"  : 1,
+  "exp_name"     : "CAE",
+  "batch_every"  : 1,
+  "save_every"   : 10,
+  "epoch_every"  : 1,
+  "shuffle"      : true,
+  "dataset_path" : "/data2/TDL/paper_fabric/fabric_datasets/fabric_classic_dataset_280/train/",
+  "num_workers"  : 2,
+  "device"       : "cuda"
+}
